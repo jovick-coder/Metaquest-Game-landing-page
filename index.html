@@ -48,10 +48,10 @@
         /></a>
         <h1 data-aos="zoom-in">Welcome To Metaquest</h1>
         <a
-
-          href="#about"
-        class="btn-get-started scrollto"
-          >Get Started</a
+        id="intorBtn" 
+          href="#video"
+        class="btn-get-started scrollto" onclick="myFunction()"
+          ><i class="bi bi-play-circle"></i> Play Now</a
         >
       </div>
     </section>
@@ -82,12 +82,38 @@
 
 
   <main id="main">
+    
+      <!-- ======= video Section ======= -->
+      <section id="video">
+        <div class="video-container">
+         <!-- The video -->
+<video autoplay muted loop id="intro2" class="w-100">
+  <source src="./assets/videos/intro2.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="video-content">
+  <!-- <h1>Heading</h1> -->
+  <h3  data-aos="zoom-in">PLAY TO EARN</h3>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
+  
+  <!-- <a
+  data-aos="fade-up"
+  href="#about"
+  class="btn-get-started scrollto"
+  ><i class="bi bi-play-circle"></i> Get Started</a
+> -->
+</div>
+        </div>
+      </section>
+      <!-- End video -->
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
           <h2>About Us</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur</p>
+          <p>Info on metaquest work</p>
         </div>
 
         <div class="row">
@@ -98,33 +124,31 @@
           </div>
           <div class="col-lg-6" data-aos="fade-left">
             <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3">
-              <h3>Voluptatem dignissimos provident quasi corporis</h3>
+              <h3>How does Metaquest work</h3>
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                METAQUEST is a blockchain-based WebGL game deployed on the ethereum blockchain. The story of Metaquest goes back to a very long time ago, where a hero who will be you, is on a quest through the metaverse completing small quests through our sidescroller game to reach the final destination. Holding MQ tokens in your wallet allows you to play the game to earn, all you have to do is connect your wallet with the tokens to the game's website and you are set to go on the Quest!
+
+
               </p>
               <ul>
                 <li>
-                  <i class="bx bx-check-double"></i> Ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
+                  <i class="bx bx-check-double"></i> Adventure.
                 </li>
                 <li>
-                  <i class="bx bx-check-double"></i> Duis aute irure dolor in
-                  reprehenderit in voluptate velit.
+                  <i class="bx bx-check-double"></i> Arena Battle.
                 </li>
                 <li>
-                  <i class="bx bx-check-double"></i> Ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in
-                  reprehenderit in voluptate trideta storacalaperda mastiro
-                  dolore eu fugiat nulla pariatur.
+                  <i class="bx bx-check-double"></i>Breeding.
                 </li>
               </ul>
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum
+                $MQ tokens are used to power the eco-system of the Meta-Quest game  
+                $MQ website will also be used for staking tokens to earn even more rewards, and the more tokens you hold the higher your spot will be on the whitelist for an nft drop the project will be doing,more info on that later on!
+               
+              </p>
+              <p>
+                $MQ tokens can be acquired on uniswap, and as long as you have them in your wallet you can participate in the game
+                Be sure to checkout the Roadmap on the bottom of the website !
               </p>
             </div>
           </div>
@@ -143,19 +167,19 @@
 </video>
 
 <!-- Optional: some overlay text to describe the video -->
-<div class="video-content">
-  <h1>Heading</h1>
-  <p>Lorem ipsum...</p>
+<!-- <div class="video-content"> -->
+  <!-- <h1>Heading</h1>
+  <p>Lorem ipsum...</p> -->
   <!-- Use a button to pause/play the video with JavaScript -->
   <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
   
-  <a
+  <!-- <a
   data-aos="fade-up"
   href="#about"
   class="btn-get-started scrollto"
-  >Get Started</a
+  ><i class="bi bi-play-circle"></i> Get Started</a
 >
-</div>
+</div> -->
         </div>
       </section>
       <!-- End video -->
@@ -164,10 +188,9 @@
     <section id="services" class="services">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>Services</h2>
+          <h2>Play To Earn</h2>
           <p>
-            Magnam dolores commodi suscipit eius consequatur ex aliquid fuga
-            eum quidem
+            METAQUEST is a new type of game, partially owned and operated by its players.
           </p>
         </div>
 
@@ -175,7 +198,7 @@
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up">
               <i class="bx bx-receipt"></i>
-              <h4>Est labore ad</h4>
+              <h4> Create Metaquest Wallet</h4>
               <p>
                 Consequuntur sunt aut quasi enim aliquam quae harum pariatur
                 laboris nisi ut aliquip
@@ -187,7 +210,7 @@
               data-aos-delay="100"
             >
               <i class="bx bx-cube-alt"></i>
-              <h4>Harum esse qui</h4>
+              <h4>Get Axies</h4>
               <p>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia deserunt
@@ -199,7 +222,7 @@
               data-aos-delay="200"
             >
               <i class="bx bx-images"></i>
-              <h4>Aut occaecati</h4>
+              <h4>Account Creation</h4>
               <p>
                 Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
                 maiores omnis facere
@@ -211,7 +234,7 @@
               data-aos-delay="300"
             >
               <i class="bx bx-shield"></i>
-              <h4>Beatae veritatis</h4>
+              <h4> Download & Play</h4>
               <p>
                 Expedita veritatis consequuntur nihil tempore laudantium vitae
                 denat pacta
@@ -226,97 +249,8 @@
           ></div>
         </div>
       </div>
-    </section>
+    </section> 
     <!-- End Services Section -->
-
-    <!-- ======= Featured Section ======= -->
-    <!-- <section id="featured" class="featured">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-right">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <figure>
-                  <img
-                    src="assets/img/featured-1.png"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <figure>
-                  <img
-                    src="assets/img/featured-2.png"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <figure>
-                  <img
-                    src="assets/img/featured-3.png"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <figure>
-                  <img
-                    src="assets/img/featured-4.png"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </figure>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a
-                  class="nav-link active show"
-                  data-bs-toggle="tab"
-                  href="#tab-1"
-                >
-                  <h4>Modi sit est</h4>
-                  <p>
-                    Quis excepturi porro totam sint earum quo nulla
-                    perspiciatis eius.
-                  </p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                  <h4>Unde praesentium sed</h4>
-                  <p>Voluptas vel esse repudiandae quo excepturi.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                  <h4>Pariatur explicabo vel</h4>
-                  <p>
-                    Velit veniam ipsa sit nihil blanditiis mollitia natus.
-                  </p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-                  <h4>Nostrum qui quasi</h4>
-                  <p>
-                    Ratione hic sapiente nostrum doloremque illum nulla
-                    praesentium id
-                  </p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- End Featured Section -->
 
         <!-- ======= video Section ======= -->
         <section id="video">
@@ -438,6 +372,27 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+
+<script>
+  // Get the video
+  var video = document.getElementById("intro2");
+  
+  // Get the button
+  var btn = document.getElementById("intorBtn");
+  
+  // Pause and play the video, and change the button text
+  function myFunction() {
+    video.currentTime=0
+    video.muted = false
+    // if (video.paused) {
+    //   video.play();
+    //   // btn.innerHTML = "Pause";
+    // } else {
+    //   video.pause();
+    //   // btn.innerHTML = "Play";
+    // }
+  }
+  </script>
   
 </body>
 </html>
